@@ -24,10 +24,6 @@ public class PersonajeController {
     public PersonajeController(PersonajesService personajeService) {
         this.personajeService = personajeService;
     }
-    @GetMapping("/ping")
-    public String ping() {
-        return "pong";
-    }
 	@GetMapping
     public List<Personaje> listar() {
         return personajeService.getAllPersonajes();
