@@ -1,10 +1,10 @@
-# 🎬 CRUD de Personajes – *Your Name (Kimi no Na wa)*
+# CRUD de Personajes – *Your Name (Kimi no Na wa)*
 
 Este proyecto es una API REST desarrollada con **Java 17**, **Spring Boot**, y **MySQL** que permite gestionar personajes de la película animada *Your Name* (*Kimi no Na wa*), dirigida por Makoto Shinkai. Implementa operaciones CRUD básicas y desarrollo backend.
 
 ---
 
-## 🚀 Tecnologías Usadas
+## Tecnologías Usadas
 
 - **Lenguaje:** Java 17  
 - **Framework:** Spring Boot  
@@ -15,7 +15,7 @@ Este proyecto es una API REST desarrollada con **Java 17**, **Spring Boot**, y *
 
 ---
 
-## 📦 Funcionalidades
+## Funcionalidades
 
 - `GET /api/personajes` – Listar todos los personajes  
 - `GET /api/personajes/{id}` – Obtener un personaje por ID  
@@ -25,7 +25,7 @@ Este proyecto es una API REST desarrollada con **Java 17**, **Spring Boot**, y *
 
 ---
 
-## 🧾 Entidad Principal: `Personaje`
+## Entidad Principal: `Personaje`
 
 | Campo        | Tipo    | Descripción                            |
 |--------------|---------|----------------------------------------|
@@ -37,7 +37,7 @@ Este proyecto es una API REST desarrollada con **Java 17**, **Spring Boot**, y *
 
 ---
 
-## 📘 Datos de Ejemplo
+## Datos de Ejemplo
 
 Se han ingresado manualmente personajes principales de la película, como:
 
@@ -49,14 +49,14 @@ Se han ingresado manualmente personajes principales de la película, como:
 
 ---
 
-## 🛠️ Características Técnicas
+## Características Técnicas
 
 - API estructurada en capas (`controller`, `service`, `repository`, `model`)
 - Uso de DTO (`PersonajeDTO`) para actualizaciones parciales
 
 ---
 
-## 🧪 Cómo Probar
+## Cómo Probar
 
 Usar herramientas como **Postman**. Un ejemplo:
 
