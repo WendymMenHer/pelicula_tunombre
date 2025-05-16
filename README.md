@@ -60,7 +60,8 @@ Se han ingresado manualmente personajes principales de la película, como:
 
 Usar herramientas como **Postman**. Un ejemplo:
 
-```//http://localhost:8080/api/personajes/
+```http
+//http://localhost:8080/api/personajes/
 PUT /api/personajes/1
 en el Body agregar:
 
