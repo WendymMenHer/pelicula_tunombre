@@ -59,13 +59,13 @@ Se han ingresado manualmente personajes principales de la película, como:
 ## Cómo Probar
 
 Usar herramientas como **Postman**. Un ejemplo:
-//http://localhost:8080/api/personajes/
+
+
 
 ```http
-
 PUT /api/personajes/1
-en el Body agregar:
-
+Content-Type: application/json
+//http://localhost:8080/api/personajes/
 {
   "descripcion": "Es un chico que vive en Tokio y trabaja en un restaurante italiano."
 }
